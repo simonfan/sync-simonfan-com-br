@@ -5,7 +5,7 @@ const server = browserSync.create()
 server.init({
   proxy: 'https://simonfan.com.br/turquia-2019/',
   injectChanges: true,
-  port: 80,
+  port: process.env.PORT,
   open: false,
   ui: false
 })
