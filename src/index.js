@@ -9,7 +9,7 @@ server.init({
   injectChanges: true,
   port: process.env.PORT || 4000,
   open: false,
-  ui: 4001
+  // ui: 4001
   // tunnel: true
   // ui: te
 })
